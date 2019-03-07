@@ -1,0 +1,84 @@
+﻿@{
+    Page.Title = "Title goes here";
+    Layout = "~/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4 text-center">Tabla</h1>
+</div>
+
+<table class="table table-bordered table-hover text-center">
+    <caption>Presupuesto por trimestre</caption>
+    <thead>
+        <tr>
+            <th rowspan=2>*pesos</th>
+            <th rowspan=2>2013</th>
+            <th colspan=4>2014</th>
+            <th rowspan=2>2015</th>
+        </tr>
+        <tr>
+            <th>Trim 1</th>
+            <th>Trim 2</th>
+            <th>Trim 3</th>
+            <th>Trim 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Personal</td>
+            <td>755</td>
+            <td>258</td>
+            <td>256</td>
+            <td>83</td>
+            <td>3</td>
+            <td>345</td>
+        </tr>
+        <tr>
+            <td>Operación</td>
+            <td>46</td>
+            <td>85</td>
+            <td>24</td>
+            <td>45</td>
+            <td>5</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Transferencia</td>
+            <td>896</td>
+            <td>43</td>
+            <td>345</td>
+            <td>345</td>
+            <td class=oa6>-34</td>
+            <td>897</td>
+        </tr>
+        <tr>
+            <td>Inversión</td>
+            <td>35</td>
+            <td>445</td>
+            <td>73</td>
+            <td>35</td>
+            <td>35</td>
+            <td>786</td>
+        </tr>
+        <tr>
+            <td>Otros</td>
+            <td>453</td>
+            <td>34</td>
+            <td>13</td>
+            <td>354</td>
+            <td>42</td>
+            <td>68</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>3333</th>
+            <th>4534</th>
+            <th>4533</th>
+            <th>3453</th>
+            <th>3453</th>
+            <th>7866</th>
+        </tr>
+    </tfoot>
+</table>
